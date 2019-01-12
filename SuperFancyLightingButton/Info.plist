@@ -41,5 +41,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>SuperFancyLightingButton will use the camera to detect environment lighting to light up yo&apos; button.</string>
 </dict>
 </plist>

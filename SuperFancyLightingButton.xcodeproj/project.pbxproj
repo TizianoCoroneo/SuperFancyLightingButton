@@ -13,6 +13,9 @@
 		357BF26021E9327000742CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357BF25F21E9327000742CDB /* Assets.xcassets */; };
 		357BF26321E9327000742CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357BF26121E9327000742CDB /* LaunchScreen.storyboard */; };
 		357BF26E21E9327000742CDB /* SuperFancyLightingButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357BF26D21E9327000742CDB /* SuperFancyLightingButtonTests.swift */; };
+		357BF27A21E9329D00742CDB /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357BF27821E9329D00742CDB /* RoundedView.swift */; };
+		357BF27B21E9329D00742CDB /* ButtonDoneRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357BF27921E9329D00742CDB /* ButtonDoneRight.swift */; };
+		357BF27D21E93A8000742CDB /* Button.scn in Resources */ = {isa = PBXBuildFile; fileRef = 357BF27C21E93A8000742CDB /* Button.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		357BF26921E9327000742CDB /* SuperFancyLightingButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFancyLightingButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		357BF26D21E9327000742CDB /* SuperFancyLightingButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFancyLightingButtonTests.swift; sourceTree = "<group>"; };
 		357BF26F21E9327000742CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357BF27821E9329D00742CDB /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		357BF27921E9329D00742CDB /* ButtonDoneRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDoneRight.swift; sourceTree = "<group>"; };
+		357BF27C21E93A8000742CDB /* Button.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Button.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +85,13 @@
 			children = (
 				357BF25821E9326D00742CDB /* AppDelegate.swift */,
 				357BF25A21E9326D00742CDB /* ViewController.swift */,
+				357BF27921E9329D00742CDB /* ButtonDoneRight.swift */,
+				357BF27821E9329D00742CDB /* RoundedView.swift */,
 				357BF25C21E9326D00742CDB /* Main.storyboard */,
 				357BF25F21E9327000742CDB /* Assets.xcassets */,
 				357BF26121E9327000742CDB /* LaunchScreen.storyboard */,
 				357BF26421E9327000742CDB /* Info.plist */,
+				357BF27C21E93A8000742CDB /* Button.scn */,
 			);
 			path = SuperFancyLightingButton;
 			sourceTree = "<group>";
@@ -177,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357BF27D21E93A8000742CDB /* Button.scn in Resources */,
 				357BF26321E9327000742CDB /* LaunchScreen.storyboard in Resources */,
 				357BF26021E9327000742CDB /* Assets.xcassets in Resources */,
 				357BF25E21E9326D00742CDB /* Main.storyboard in Resources */,
@@ -197,8 +207,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357BF27B21E9329D00742CDB /* ButtonDoneRight.swift in Sources */,
 				357BF25B21E9326D00742CDB /* ViewController.swift in Sources */,
 				357BF25921E9326D00742CDB /* AppDelegate.swift in Sources */,
+				357BF27A21E9329D00742CDB /* RoundedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
